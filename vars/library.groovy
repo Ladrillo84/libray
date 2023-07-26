@@ -1,6 +1,5 @@
-def call(Map config = [:]) {
-    String test = config.test
-    println(test)
+def call(String p) {
+    println(p)
 
-    return config.test
+    return p
 }
