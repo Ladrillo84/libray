@@ -1,5 +1,5 @@
-def call(Map config = [:]) {
-    println(config.test)
+def call() {
+    println(test)
 
-    return config.test 
+    return test 
 }
